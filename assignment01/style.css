@@ -1,0 +1,151 @@
+.shopping-icon {
+  margin-left: 20px;
+  color: white;
+}
+.shop-btn {
+  text-decoration: none;
+  padding: 10px;
+
+  border-radius: 5px;
+  background-color: #171495;
+  color: white;
+  font-weight: 600;
+}
+.my-carousel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.carousel-parent {
+  height: 500px;
+}
+.img-container1 {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img-container2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.carousel-img1 {
+  width: 50%;
+}
+.carousel-img2 {
+  width: 100%;
+  margin: auto;
+}
+.main-container {
+  display: flex;
+}
+.left-container {
+  width: 50%;
+}
+.left-box {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+.right-container {
+  width: 50%;
+  background-color: #ededed;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.item-card {
+  width: 31%;
+}
+.sale-items {
+  width: 32%;
+}
+.item-details {
+  display: flex;
+}
+.footer-container {
+  padding: 25px;
+  background-color: #0e071b;
+  color: white;
+}
+.footer-container li {
+  text-decoration: none;
+  list-style: none;
+}
+.footer-container a {
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+}
+.container-row {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-col {
+  width: 32%;
+}
+@media only screen and (max-width: 660px) {
+  .shopping-icon {
+    margin: 0;
+  }
+  .my-carousel {
+    display: block;
+  }
+  .img-container1 {
+    width: 80%;
+    margin: auto;
+  }
+  .carousel-img1 {
+    width: 50%;
+    margin: auto;
+  }
+  .img-container2 {
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  .carousel-text {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .carousel-parent {
+    height: 400px;
+  }
+  .main-container {
+    display: block;
+  }
+  .right-container {
+    width: 100%;
+  }
+  .left-container {
+    width: 100%;
+  }
+  .items-container {
+    display: flex;
+  }
+  .item-card {
+    width: 80%;
+    margin: auto;
+  }
+  .sale-items {
+    margin: auto;
+    width: 80%;
+  }
+  .footer-col {
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
